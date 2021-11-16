@@ -1,5 +1,6 @@
 const bodyParser = require("body-parser");
 const express = require("express");
+const router = require("./routes/router");
 
 require("./db/mongoose");
 
@@ -19,5 +20,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Parse application/json
 app.use(bodyParser.json());
+
+// Set up Express.js routes
+app.use(router);
 
 module.exports = app;
