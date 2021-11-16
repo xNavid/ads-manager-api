@@ -8,7 +8,7 @@ create a single ad resource.
 
 ### Endpoint
 
-`POST /ads
+`POST /ads`
 
 ### Request Headers
 
@@ -78,7 +78,7 @@ Get all ads resource.
 
 ### Endpoint
 
-`GET /ads
+`GET /ads`
 
 ### Request Headers
 
