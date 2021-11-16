@@ -1,1 +1,1 @@
-# ads-manager-api
+# Ads Manager APIs
