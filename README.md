@@ -1,5 +1,17 @@
 # Ads Manager APIs
 
+## Overview
+
+This is the APIs for the ads manager. The requirement mentioned to use PHP yet I decided to use express becuase my very limited available time. Since I knew I am much more experienced in Node I wanted to use a framework to finish the work in one seating. It took apporx an hour to finish and push the code. The missing parts have been addressed below as todos
+
+## Scope
+
+I have created the CRUD operations for ads.
+
+## Project Link
+
+[Project is hosted on Glitch!](https://tasty-desert-dead.glitch.me/)
+
 ## API docs
 
 ### Create Ad
@@ -182,3 +194,12 @@ None
 }
 
 ```
+
+## Todo
+
+- [ ] Add authentication with JWT and add middleware for it.
+- [ ] Add user model and hierarchy for marketing agents to manage and assign ad campaignes.
+- [ ] Add unit tests for endpoint functions
+- [ ] As project grows and APIs use multiple functions one can separate the functions in APIs by creating `/services` directory
+- [ ] Add performance simulation and testing
+- [ ] Whitelist IPs that can acess and request to server.
